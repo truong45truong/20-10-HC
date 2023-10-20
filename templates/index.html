@@ -1,0 +1,106 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20/10 Huong Chuc</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./../static/main.css" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/animation.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/heart.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/animation_letter.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/circle.css' %}" />
+</head>
+<body>
+  <div class="container w-100">
+    <div class="row  d-flex flex-column w-100 mb-5 pb-5 mt-3 ">
+      <div class="animated-text d-flex justify-content-center ">
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/C-removebg-preview.png" alt="">
+        </span>
+        <span class="letter">
+          <img   style="height: 5vw;" class="img-letter" src="./../media/letter/H-removebg-preview.png" alt="">
+        </span>
+        <span class="letter">
+          <img  style="height: 5vw;" class="img-letter" src="./../media/letter/U-removebg-preview.png" alt="">
+        </span>
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/C-removebg-preview.png" alt="">
+        </span>
+        <span class="letter ms-5">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/M-removebg-preview.png" alt="">
+        </span>
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/U-removebg-preview.png" alt="">
+        </span>
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/N-removebg-preview.png" alt="">
+        </span>
+        <span class="letter me-5">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/G-removebg-preview.png" alt="">
+        </span>
+
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/G-removebg-preview.png" alt="">
+        </span>
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/H-removebg-preview.png" alt="">
+        </span>
+        <span class="letter me-5">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/E.png" alt="">
+        </span>
+
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/D.png" alt="">
+        </span>
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/E.png" alt="">
+        </span>
+        <span class="letter me-5">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/P.png" alt="">
+        </span>
+    </div>
+    </div>
+    <div class="row mt-5">
+      <div id="drag-container">
+        <div id="spin-container">
+          <img src="http://127.0.0.1:8000/media/images/3fda39c0b1e666b83ff7.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/5c89e5a26484b3daea95.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/8ead69ede3cb34956dda.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/18f1bd503676e128b867.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/46ef349ab0bc67e23ead.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/94fae45f6e79b927e068.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/3087ce5e45789226cb69.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/b1bb1f8998af4ff116be.jpg" alt="">
+          <img src="http://127.0.0.1:8000/media/images/c6fa76d1fef729a970e6.jpg" alt="">
+          
+        </div>
+        <div id="ground">
+          <div class="circles">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+            <div class="circle circle-3"></div>
+            <div class="circle circle-4"></div>
+            <div class="circle circle-5"></div>
+            <div class="circle circle-6"></div>
+            <div class="circle circle-7"></div>
+            <div class="circle circle-8"></div>
+            <div class="circle circle-9"></div>
+            <div class="circle circle-10"></div>
+           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="heart-fly" class="heart-fly">
+      <img class="heart" src="./../media/images/heart.png" alt="">
+  </div>
+  <script src="./../static/3D.js"></script>
+  <script src="/static/js/bootstrap.bundle.min.js"></script>
+  <script src="/static/js/render_heart.js"></script>
+</body>
+</html>
+
+  

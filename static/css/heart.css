@@ -1,0 +1,45 @@
+.heart {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    animation: heartBeat 1s infinite;
+    z-index: 9999;
+    display: block;
+    /* animation: heartBtoT 2s infinite; */
+}
+.heart-fly {
+    position: absolute;
+    display: block;
+    animation: heartBtoT 10s;
+    z-index: 99;
+}
+
+@keyframes heartBeat {
+    0% {
+        transform: scale(0.75);
+    }
+    20% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(0.75);
+    }
+    60% {
+        transform: scale(1);
+    }
+    80% {
+        transform: scale(0.75);
+    }
+    100% {
+        transform: scale(0.75);
+    }
+}
+
+@keyframes heartBtoT{
+    0% {
+        top:-700px;
+    }
+    100% {
+        top:900px;
+    }
+}

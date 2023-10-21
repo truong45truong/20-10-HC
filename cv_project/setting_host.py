@@ -55,7 +55,10 @@ ROOT_URLCONF = 'cv_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["./templates/"],
+        'DIRS': [
+            "./templates/",
+            "/home/truong45truong/20-10-HC/templates/"
+                 ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

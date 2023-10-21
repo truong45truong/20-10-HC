@@ -83,7 +83,7 @@
       </div>
     </div>
     <div class="content-love">
-      <img src="./../media/letter/contentlove.png" alt="">
+      <img class="content-img-love" src="./../media/letter/contentlove.png" alt="">
     </div>
   </div>
   <div id="heart-fly" class="heart-fly">
@@ -106,6 +106,30 @@
       top: 0;
       left: 0;
     }
+    
+    /* Điều kiện cho màn hình điện thoại */
+    @media only screen and (max-width: 450px) {
+      #drag-container, #spin-container {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        width: 150px !important;
+        height: 200px !important;
+        display: flex;
+        margin: auto;
+        -webkit-transform-style: preserve-3d;
+                transform-style: preserve-3d;
+        -webkit-transform: rotateX(-10deg);
+                transform: rotateX(-10deg);
+      }
+      .content-love {
+        margin-top: 100px !important;
+      }
+      .content-img-love {
+        width: 300px;
+      }
+    }
+    
   </style>
 </body>
 </html>

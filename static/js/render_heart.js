@@ -26,7 +26,7 @@ function createHeart() {
     // Xóa đối tượng sau 10 giây
     setTimeout(() => {
         body.removeChild(heartFly);
-    }, 1000); // Xóa sau 10 giây
+    }, 5000); // Xóa sau 10 giây
 }
 
-setInterval(createHeart, 100); 
+setInterval(createHeart, 60); 

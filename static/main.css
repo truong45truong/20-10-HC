@@ -8,6 +8,7 @@
     height: 100%;
     /* for touch screen */
     touch-action: none; 
+    background: black !important;
   }
   
   #spin-container {
@@ -122,4 +123,3 @@
               transform: rotateY(0deg);
     }
   }
-

@@ -15,7 +15,7 @@
 </head>
 <body>
   <div class="container w-100">
-    <div class="row  d-flex flex-column w-100 mb-5 pb-5 mt-3 ">
+    <div class="row posstion-relative overflow-hidden  d-flex flex-column w-100 mb-5 pb-5 mt-3 ">
       <div class="animated-text d-flex justify-content-center ">
         <span class="letter">
           <img style="height: 5vw;" class="img-letter" src="./../media/letter/C-removebg-preview.png" alt="">
@@ -42,39 +42,28 @@
           <img style="height: 5vw;" class="img-letter" src="./../media/letter/G-removebg-preview.png" alt="">
         </span>
 
-        <span class="letter">
-          <img style="height: 5vw;" class="img-letter" src="./../media/letter/G-removebg-preview.png" alt="">
         </span>
         <span class="letter">
-          <img style="height: 5vw;" class="img-letter" src="./../media/letter/H-removebg-preview.png" alt="">
-        </span>
-        <span class="letter me-5">
           <img style="height: 5vw;" class="img-letter" src="./../media/letter/E.png" alt="">
+        </span>
+        <span class="letter">
+          <img style="height: 5vw;" class="img-letter" src="./../media/letter/M-removebg-preview.png" alt="">
         </span>
 
-        <span class="letter">
-          <img style="height: 5vw;" class="img-letter" src="./../media/letter/D.png" alt="">
-        </span>
-        <span class="letter">
-          <img style="height: 5vw;" class="img-letter" src="./../media/letter/E.png" alt="">
-        </span>
-        <span class="letter me-5">
-          <img style="height: 5vw;" class="img-letter" src="./../media/letter/P.png" alt="">
-        </span>
     </div>
     </div>
     <div class="row mt-5">
       <div id="drag-container">
         <div id="spin-container">
-          <img src="http://127.0.0.1:8000/media/images/3fda39c0b1e666b83ff7.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/5c89e5a26484b3daea95.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/8ead69ede3cb34956dda.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/18f1bd503676e128b867.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/46ef349ab0bc67e23ead.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/94fae45f6e79b927e068.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/3087ce5e45789226cb69.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/b1bb1f8998af4ff116be.jpg" alt="">
-          <img src="http://127.0.0.1:8000/media/images/c6fa76d1fef729a970e6.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/3fda39c0b1e666b83ff7.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/5c89e5a26484b3daea95.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/8ead69ede3cb34956dda.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/18f1bd503676e128b867.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/46ef349ab0bc67e23ead.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/94fae45f6e79b927e068.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/3087ce5e45789226cb69.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/b1bb1f8998af4ff116be.jpg" alt="">
+          <img class="card-img" src="http://127.0.0.1:8000/media/images/c6fa76d1fef729a970e6.jpg" alt="">
           
         </div>
         <div id="ground">
@@ -93,6 +82,9 @@
         </div>
       </div>
     </div>
+    <div class="content-love">
+      <img src="./../media/letter/contentlove.png" alt="">
+    </div>
   </div>
   <div id="heart-fly" class="heart-fly">
       <img class="heart" src="./../media/images/heart.png" alt="">
@@ -100,6 +92,21 @@
   <script src="./../static/3D.js"></script>
   <script src="/static/js/bootstrap.bundle.min.js"></script>
   <script src="/static/js/render_heart.js"></script>
+  <style>
+    body,html {
+      background-color: rgb(243, 235, 235) !important;
+    }
+    .content-love {
+      margin-top: 200px !important;
+    }
+    .video-love {
+      opacity: 0.2 !important;
+      border-radius: 50%;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  </style>
 </body>
 </html>
 
